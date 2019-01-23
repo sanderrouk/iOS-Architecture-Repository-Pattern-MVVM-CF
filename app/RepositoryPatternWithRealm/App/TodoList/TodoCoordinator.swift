@@ -2,9 +2,9 @@ import UIKit
 
 final class TodoCoordinator: Coordinator {
 
-    private let todoService: TodoService
+    private let todoService: TodoProvider
 
-    init(todoService: TodoService) {
+    init(todoService: TodoProvider) {
         self.todoService = todoService
     }
 

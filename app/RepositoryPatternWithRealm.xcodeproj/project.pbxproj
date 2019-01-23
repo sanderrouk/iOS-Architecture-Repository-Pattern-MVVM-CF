@@ -7,20 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42E9E3121F8D8CA005C028C /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E9E3021F8D8CA005C028C /* Disposable.swift */; };
+		A42E9E3321F8D908005C028C /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E9E3221F8D908005C028C /* Lock.swift */; };
+		A42E9E3521F8D927005C028C /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E9E3421F8D927005C028C /* Observable.swift */; };
 		A44DC89021D805C600BEF6A2 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44DC88D21D805C600BEF6A2 /* PureLayout.framework */; };
 		A44DC89121D805C600BEF6A2 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44DC88E21D805C600BEF6A2 /* RealmSwift.framework */; };
 		A44DC89221D805C600BEF6A2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44DC88F21D805C600BEF6A2 /* Realm.framework */; };
 		A44DC89421D8090800BEF6A2 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC89321D8090800BEF6A2 /* NSObject+Extensions.swift */; };
-		A44DC89821D80E5000BEF6A2 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC89721D80E5000BEF6A2 /* Repository.swift */; };
+		A44DC89821D80E5000BEF6A2 /* RealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC89721D80E5000BEF6A2 /* RealmRepository.swift */; };
 		A44DC89B21D80EAC00BEF6A2 /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44DC89921D80EAC00BEF6A2 /* FBLPromises.framework */; };
 		A44DC89C21D80EAC00BEF6A2 /* Promises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44DC89A21D80EAC00BEF6A2 /* Promises.framework */; };
 		A44DC89F21D8100F00BEF6A2 /* RequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC89E21D8100F00BEF6A2 /* RequestExecutor.swift */; };
 		A44DC8A221D8103900BEF6A2 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8A121D8103900BEF6A2 /* NetworkingService.swift */; };
 		A44DC8A621D8105800BEF6A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8A521D8105800BEF6A2 /* Logger.swift */; };
-		A44DC8A921D8112000BEF6A2 /* TodoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8A821D8112000BEF6A2 /* TodoRepository.swift */; };
+		A44DC8A921D8112000BEF6A2 /* LocalTodoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8A821D8112000BEF6A2 /* LocalTodoRepository.swift */; };
 		A44DC8AB21D8160F00BEF6A2 /* setupRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8AA21D8160F00BEF6A2 /* setupRealm.swift */; };
-		A44DC8AE21D81AC500BEF6A2 /* TodoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8AD21D81AC500BEF6A2 /* TodoService.swift */; };
-		A44DC8B021D81F4200BEF6A2 /* TodoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8AF21D81F4200BEF6A2 /* TodoProvider.swift */; };
+		A44DC8AE21D81AC500BEF6A2 /* TodoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8AD21D81AC500BEF6A2 /* TodoProvider.swift */; };
+		A44DC8B021D81F4200BEF6A2 /* RemoteTodoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8AF21D81F4200BEF6A2 /* RemoteTodoRepository.swift */; };
 		A44DC8B221D8237E00BEF6A2 /* MultiDataSourceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8B121D8237E00BEF6A2 /* MultiDataSourceError.swift */; };
 		A44DCAD721D8281000BEF6A2 /* Promises.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DCAD621D8281000BEF6A2 /* Promises.swift */; };
 		A4EBDEB621D7F67B0001507B /* RepositoryPatternWithRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EBDEB521D7F67B0001507B /* RepositoryPatternWithRealmTests.swift */; };
@@ -50,20 +53,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42E9E3021F8D8CA005C028C /* Disposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
+		A42E9E3221F8D908005C028C /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		A42E9E3421F8D927005C028C /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		A44DC88D21D805C600BEF6A2 /* PureLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout.framework; path = Carthage/Build/iOS/PureLayout.framework; sourceTree = "<group>"; };
 		A44DC88E21D805C600BEF6A2 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		A44DC88F21D805C600BEF6A2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		A44DC89321D8090800BEF6A2 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
-		A44DC89721D80E5000BEF6A2 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		A44DC89721D80E5000BEF6A2 /* RealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmRepository.swift; sourceTree = "<group>"; };
 		A44DC89921D80EAC00BEF6A2 /* FBLPromises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBLPromises.framework; path = Carthage/Build/iOS/FBLPromises.framework; sourceTree = "<group>"; };
 		A44DC89A21D80EAC00BEF6A2 /* Promises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Promises.framework; path = Carthage/Build/iOS/Promises.framework; sourceTree = "<group>"; };
 		A44DC89E21D8100F00BEF6A2 /* RequestExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestExecutor.swift; sourceTree = "<group>"; };
 		A44DC8A121D8103900BEF6A2 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		A44DC8A521D8105800BEF6A2 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		A44DC8A821D8112000BEF6A2 /* TodoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRepository.swift; sourceTree = "<group>"; };
+		A44DC8A821D8112000BEF6A2 /* LocalTodoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTodoRepository.swift; sourceTree = "<group>"; };
 		A44DC8AA21D8160F00BEF6A2 /* setupRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setupRealm.swift; sourceTree = "<group>"; };
-		A44DC8AD21D81AC500BEF6A2 /* TodoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoService.swift; sourceTree = "<group>"; };
-		A44DC8AF21D81F4200BEF6A2 /* TodoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoProvider.swift; sourceTree = "<group>"; };
+		A44DC8AD21D81AC500BEF6A2 /* TodoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoProvider.swift; sourceTree = "<group>"; };
+		A44DC8AF21D81F4200BEF6A2 /* RemoteTodoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTodoRepository.swift; sourceTree = "<group>"; };
 		A44DC8B121D8237E00BEF6A2 /* MultiDataSourceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDataSourceError.swift; sourceTree = "<group>"; };
 		A44DCAD621D8281000BEF6A2 /* Promises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promises.swift; sourceTree = "<group>"; };
 		A4EBDEAC21D7F67B0001507B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,6 +117,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A42E9E2E21F8D87C005C028C /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				A44DC8AD21D81AC500BEF6A2 /* TodoProvider.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		A42E9E2F21F8D8B5005C028C /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				A42E9E3021F8D8CA005C028C /* Disposable.swift */,
+				A42E9E3221F8D908005C028C /* Lock.swift */,
+				A42E9E3421F8D927005C028C /* Observable.swift */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
 		A44DC88C21D805C600BEF6A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +150,7 @@
 		A44DC89521D80E3900BEF6A2 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				A42E9E2F21F8D8B5005C028C /* Observable */,
 				A44DC8B121D8237E00BEF6A2 /* MultiDataSourceError.swift */,
 				A44DC8A421D8105300BEF6A2 /* Logger */,
 				A44DC8A321D8103E00BEF6A2 /* Provider */,
@@ -141,7 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				A44DC8A721D8111600BEF6A2 /* Todo */,
-				A44DC89721D80E5000BEF6A2 /* Repository.swift */,
+				A44DC89721D80E5000BEF6A2 /* RealmRepository.swift */,
 				A44DC8AA21D8160F00BEF6A2 /* setupRealm.swift */,
 			);
 			path = Repository;
@@ -167,7 +192,7 @@
 		A44DC8A321D8103E00BEF6A2 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
-				A44DC8AF21D81F4200BEF6A2 /* TodoProvider.swift */,
+				A42E9E2E21F8D87C005C028C /* Todo */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -183,7 +208,8 @@
 		A44DC8A721D8111600BEF6A2 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
-				A44DC8A821D8112000BEF6A2 /* TodoRepository.swift */,
+				A44DC8AF21D81F4200BEF6A2 /* RemoteTodoRepository.swift */,
+				A44DC8A821D8112000BEF6A2 /* LocalTodoRepository.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -191,7 +217,6 @@
 		A44DC8AC21D81ABC00BEF6A2 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
-				A44DC8AD21D81AC500BEF6A2 /* TodoService.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -441,21 +466,24 @@
 				EA71B8AE4F8C85D5AB21E457 /* AppDelegate.swift in Sources */,
 				EA71B73392DCCBCB8AA5B732 /* RootFactory.swift in Sources */,
 				EA71B8C17B49C12B34F32814 /* RootCoordinator.swift in Sources */,
-				A44DC8AE21D81AC500BEF6A2 /* TodoService.swift in Sources */,
-				A44DC89821D80E5000BEF6A2 /* Repository.swift in Sources */,
+				A44DC8AE21D81AC500BEF6A2 /* TodoProvider.swift in Sources */,
+				A44DC89821D80E5000BEF6A2 /* RealmRepository.swift in Sources */,
 				A44DC89421D8090800BEF6A2 /* NSObject+Extensions.swift in Sources */,
 				A44DC8A621D8105800BEF6A2 /* Logger.swift in Sources */,
 				EA71B64CE624F7F2BBA98E66 /* Coordinator.swift in Sources */,
-				A44DC8B021D81F4200BEF6A2 /* TodoProvider.swift in Sources */,
+				A42E9E3521F8D927005C028C /* Observable.swift in Sources */,
+				A44DC8B021D81F4200BEF6A2 /* RemoteTodoRepository.swift in Sources */,
 				EA71B09326BB65412D93B093 /* TodoCoordinator.swift in Sources */,
 				EA71BDA5D6CB428F39A35604 /* TodoFactory.swift in Sources */,
 				A44DC8AB21D8160F00BEF6A2 /* setupRealm.swift in Sources */,
 				EA71BABDE8458C55A141C735 /* TodoViewModel.swift in Sources */,
 				EA71BD609653F6EF0194DF3B /* Todo.swift in Sources */,
+				A42E9E3121F8D8CA005C028C /* Disposable.swift in Sources */,
 				EA71B8C391A1A45C251E2569 /* TodoViewController.swift in Sources */,
-				A44DC8A921D8112000BEF6A2 /* TodoRepository.swift in Sources */,
+				A44DC8A921D8112000BEF6A2 /* LocalTodoRepository.swift in Sources */,
 				A44DCAD721D8281000BEF6A2 /* Promises.swift in Sources */,
 				EA71BD7BA8131FC5532714B6 /* PureLayout+Extensions.swift in Sources */,
+				A42E9E3321F8D908005C028C /* Lock.swift in Sources */,
 				EA71BFE3614C4E7999F7E2F1 /* UITableView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -4,7 +4,7 @@ protocol TodoFactory {
 
 struct TodoFactoryImpl: TodoFactory {
 
-    let todoService: TodoService
+    let todoService: TodoProvider
 
     func make() -> Coordinator {
         return TodoCoordinator(todoService: todoService)

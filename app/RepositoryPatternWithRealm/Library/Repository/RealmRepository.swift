@@ -1,11 +1,11 @@
 import Promises
 import RealmSwift
 
-protocol Repository {
+protocol RealmRepository {
     func openRealm() -> Promise<Realm>
 }
 
-extension Repository {
+extension RealmRepository {
     func openRealm() -> Promise<Realm> {
         return Promise { fulfill, reject in
             do {

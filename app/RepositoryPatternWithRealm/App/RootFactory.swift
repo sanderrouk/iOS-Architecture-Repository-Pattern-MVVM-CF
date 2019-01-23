@@ -7,9 +7,9 @@ struct RootFactory {
         let http: RequestExecutor = HttpRequestExecutor()
         let networkingService = NetworkingService(requestExecutor: http)
 
-        let todoRepository = TodoRepositoryImpl()
-        let todoService = TodoServiceImpl(todoProvider: networkingService,
-                                          todoRepository: todoRepository)
+        let localTodoRepository = LocalTodoRepositoryImpl()
+        let todoService = TodoProviderImpl(remoteRepository: networkingService,
+                                          localRepository: localTodoRepository)
 
         todo = TodoFactoryImpl(todoService: todoService)
     }

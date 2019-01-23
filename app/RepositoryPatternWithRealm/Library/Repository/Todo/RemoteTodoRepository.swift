@@ -1,9 +1,7 @@
 import Promises
 import Foundation
 
-protocol TodoProvider: TodoDataSource {}
-
-extension NetworkingService: TodoProvider {
+extension NetworkingService: TodoRepository {
     func getTodos() -> Promise<[Todo]> {
         return get(path: "todos")
             .then { try JSONDecoder().decode([Todo].self, from: $0) }

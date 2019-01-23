@@ -5,7 +5,7 @@ licenses(["notice"])  # Apache 2.0
 exports_files(["LICENSE"])
 
 load("@build_bazel_rules_apple//apple:ios.bzl", "ios_unit_test")
-load("@build_bazel_rules_apple//apple:swift.bzl", "swift_library")
+load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
 
 OBJC_COPTS = [
     "-Werror",
@@ -37,7 +37,7 @@ swift_library(
     srcs = glob([
         "Sources/PromisesTestHelpers/*.swift",
     ]),
-    copts = SWIFT_COPTS,
+    copts = [],
     module_name = "PromisesTestHelpers",
     deps = [
         ":Promises",

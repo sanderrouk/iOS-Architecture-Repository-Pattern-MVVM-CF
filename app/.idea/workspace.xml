@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfa62e96-953c-4262-aefb-c103db8d1a94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sanderrouk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cartfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/App/TodoList/TodoCoordinator.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/App/TodoList/TodoFactory.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/App/TodoList/TodoViewController.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/App/TodoList/TodoViewModel.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Common/Extensions/NSObject+Extensions.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Common/Extensions/PureLayout+Extensions.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Common/Extensions/UITableView+Extensions.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Library/Http/RequestExecutor.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Library/Logger/Logger.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Library/Provider/TodoProvider.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Library/Repository/Repository.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Library/Repository/Todo/TodoRepository.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Library/Repository/setupRealm.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Library/Service/MultiDataSourceError.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Library/Service/NetworkingService.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Library/Service/Todo/TodoService.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepositoryPatternWithRealm/Model/Todo/Todo.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm.xcodeproj/xcuserdata/sanderrouk.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm/AppDelegate.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm/Base.lproj/Main.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm/Resources/Assets.xcassets/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm/Resources/LaunchScreen.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealm/ViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealmTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepositoryPatternWithRealmTests/RepositoryPatternWithRealmTests.swift" beforeDir="false" />
-    </list>
+    <list default="true" id="cfa62e96-953c-4262-aefb-c103db8d1a94" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RepositoryPatternWithRealm/Info.plist">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="541">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -264,12 +228,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546110964224</updated>
       <workItem from="1546110965706" duration="2704000" />
-      <workItem from="1546117557698" duration="2606000" />
+      <workItem from="1546117557698" duration="2914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5310000" />
+    <option name="totallyTimeSpent" value="5618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -281,7 +245,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29359606" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29359606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RepositoryPatternWithRealm/Info.plist">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="541">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
         </state>
       </provider>
     </entry>

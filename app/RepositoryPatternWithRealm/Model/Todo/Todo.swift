@@ -18,3 +18,9 @@ class Todo: Object, Codable {
         }
     }
 }
+
+extension Todo {
+    static func ==(lhs: Todo, rhs: Todo) -> Bool {
+        return lhs.id == rhs.id
+    }
+}

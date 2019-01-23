@@ -1,10 +1,11 @@
 import Promises
+import RealmSwift
 
-protocol TodoRepository: TodoDataSource, Repository {
+protocol LocalTodoRepository: TodoRepository, RealmRepository {
     func saveOrUpdate(todos: [Todo]) -> Promise<[Todo]>
 }
 
-final class TodoRepositoryImpl: TodoRepository {
+final class LocalTodoRepositoryImpl: LocalTodoRepository {
 
     func getTodos() -> Promise<[Todo]> {
         return openRealm()

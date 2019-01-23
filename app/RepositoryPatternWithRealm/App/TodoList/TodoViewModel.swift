@@ -7,14 +7,16 @@ protocol TodoViewModelView: AnyObject {
 
 final class TodoViewModel {
 
-    private let todoService: TodoService
+    private let todoService: TodoProvider
 
     private var todos = [Todo]()
+    private var observer: Disposable?
 
     weak var view: TodoViewModelView?
 
-    init(todoService: TodoService) {
+    init(todoService: TodoProvider) {
         self.todoService = todoService
+        bind()
         fetch()
     }
 
@@ -33,16 +35,14 @@ final class TodoViewModel {
         }.catch { print($0.localizedDescription) }
     }
 
-    private func fetch() {
-        let promises = todoService.getTodos()
-        handleTodoFetch(promises.local)
-        handleTodoFetch(promises.remote)
+    private func bind() {
+        observer = todoService.todos.observe { [weak self] todos, _ in
+            self?.todos = todos
+            self?.view?.reloadView()
+        }
     }
 
-    private func handleTodoFetch(_ promise: Promise<[Todo]>) {
-        promise.then { [weak self] in
-            self?.todos = $0
-            self?.view?.reloadView()
-        }.catch { print($0.localizedDescription) }
+    private func fetch() {
+        todoService.getTodos()
     }
 }

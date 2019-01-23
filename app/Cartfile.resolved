@@ -1,3 +1,4 @@
 github "PureLayout/PureLayout" "v3.1.4"
-github "google/promises" "1.2.4"
-github "realm/realm-cocoa" "v3.13.0"
+github "google/promises" "1.2.5"
+github "realm/realm-cocoa" "v3.13.1"
+github "roberthein/Observable" "513781328be8ed6b66ab71c4ea2a59b736140f41"
