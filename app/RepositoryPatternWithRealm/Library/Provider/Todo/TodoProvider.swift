@@ -47,9 +47,6 @@ final class TodoProviderImpl: TodoProvider {
     }
 
     private func handleList(response: Promise<[Todo]>) {
-        response
-            .then { [weak self] todos in
-                self?._todos.value = todos
-        }
+        response.then { [weak self] in self?._todos.value = $0 }
     }
 }

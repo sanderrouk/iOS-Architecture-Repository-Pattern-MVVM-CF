@@ -10,7 +10,7 @@ final class TodoViewModel {
     private let todoService: TodoProvider
 
     private var todos = [Todo]()
-    private var observer: Disposable?
+    private var disposeBag = Disposal()
 
     weak var view: TodoViewModelView?
 
@@ -36,10 +36,10 @@ final class TodoViewModel {
     }
 
     private func bind() {
-        observer = todoService.todos.observe { [weak self] todos, _ in
+        todoService.todos.observe { [weak self] todos, _ in
             self?.todos = todos
             self?.view?.reloadView()
-        }
+        }.add(to: &disposeBag)
     }
 
     private func fetch() {

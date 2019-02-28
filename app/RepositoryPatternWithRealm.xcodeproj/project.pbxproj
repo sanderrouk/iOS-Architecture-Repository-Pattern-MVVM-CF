@@ -25,7 +25,6 @@
 		A44DC8AE21D81AC500BEF6A2 /* TodoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8AD21D81AC500BEF6A2 /* TodoProvider.swift */; };
 		A44DC8B021D81F4200BEF6A2 /* RemoteTodoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8AF21D81F4200BEF6A2 /* RemoteTodoRepository.swift */; };
 		A44DC8B221D8237E00BEF6A2 /* MultiDataSourceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DC8B121D8237E00BEF6A2 /* MultiDataSourceError.swift */; };
-		A44DCAD721D8281000BEF6A2 /* Promises.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DCAD621D8281000BEF6A2 /* Promises.swift */; };
 		A4EBDEB621D7F67B0001507B /* RepositoryPatternWithRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EBDEB521D7F67B0001507B /* RepositoryPatternWithRealmTests.swift */; };
 		EA71B09326BB65412D93B093 /* TodoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71BD6DA7C5B680DC8F24A9 /* TodoCoordinator.swift */; };
 		EA71B311B0AE9285A4167FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA71B82BA1D3914DA7AF43EA /* Assets.xcassets */; };
@@ -71,13 +70,11 @@
 		A44DC8AD21D81AC500BEF6A2 /* TodoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoProvider.swift; sourceTree = "<group>"; };
 		A44DC8AF21D81F4200BEF6A2 /* RemoteTodoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTodoRepository.swift; sourceTree = "<group>"; };
 		A44DC8B121D8237E00BEF6A2 /* MultiDataSourceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDataSourceError.swift; sourceTree = "<group>"; };
-		A44DCAD621D8281000BEF6A2 /* Promises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promises.swift; sourceTree = "<group>"; };
 		A4EBDEAC21D7F67B0001507B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4EBDEB521D7F67B0001507B /* RepositoryPatternWithRealmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryPatternWithRealmTests.swift; sourceTree = "<group>"; };
 		A4EBDEB721D7F67C0001507B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA71B024124D34D19D5958C0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA71B0A7DC8E0A635365B2A3 /* TodoFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoFactory.swift; sourceTree = "<group>"; };
-		EA71B2271CAD0BF5CC74A968 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		EA71B36E19129DF1F1EDB191 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		EA71B3AFD1200C6E20ADD30C /* TodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		EA71B4BA3618593436876739 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -157,7 +154,6 @@
 				A44DC8A021D8103000BEF6A2 /* Service */,
 				A44DC89D21D8100000BEF6A2 /* Http */,
 				A44DC89621D80E4200BEF6A2 /* Repository */,
-				A44DCAD621D8281000BEF6A2 /* Promises.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -226,7 +222,6 @@
 			children = (
 				A4EBDE9F21D7F67A0001507B /* RepositoryPatternWithRealm */,
 				A4EBDEB421D7F67B0001507B /* RepositoryPatternWithRealmTests */,
-				EA71B2271CAD0BF5CC74A968 /* .gitignore */,
 				EA71B4DE94AE29A0FCBFC614 /* Cartfile */,
 				A44DC88C21D805C600BEF6A2 /* Frameworks */,
 			);
@@ -481,7 +476,6 @@
 				A42E9E3121F8D8CA005C028C /* Disposable.swift in Sources */,
 				EA71B8C391A1A45C251E2569 /* TodoViewController.swift in Sources */,
 				A44DC8A921D8112000BEF6A2 /* LocalTodoRepository.swift in Sources */,
-				A44DCAD721D8281000BEF6A2 /* Promises.swift in Sources */,
 				EA71BD7BA8131FC5532714B6 /* PureLayout+Extensions.swift in Sources */,
 				A42E9E3321F8D908005C028C /* Lock.swift in Sources */,
 				EA71BFE3614C4E7999F7E2F1 /* UITableView+Extensions.swift in Sources */,
